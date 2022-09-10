@@ -1,0 +1,30 @@
+.body img{
+    height: 40px;
+}
+
+.body .box{
+    margin: 20px 16px;
+    padding: 22px 35px;
+    background-color: #fff;
+    border-radius: 7px;
+}
+
+.body .carousal2 img{
+    border-radius: 5px;
+}
+
+.body h4{
+    font-size: 1.25rem;
+    color: black;
+}
+
+.body .picks img{
+    height: 113px;
+}
+
+.body .col-lg-2,.col-md-4,.col-sm-6{
+    box-shadow: 0 .4rem 1rem rgba(0,0,0,.15)!important;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+

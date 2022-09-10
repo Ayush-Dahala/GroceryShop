@@ -1,0 +1,75 @@
+body{
+    background-color: #f0f2f5;
+}
+
+
+div>img{
+    height: 25px;
+    width: 25px;
+    background-color: #f17f39;
+    border-radius: 24px
+}
+
+h3{
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 8px;
+}
+
+.status-box{
+    border-radius: 0.4rem;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+    padding: 0.5rem;
+    position: fixed;
+    width: 20%;
+    display: block;
+}
+
+@media screen and (max-width:992px) {
+    .status-box{
+        display: none;
+    }
+    
+}
+
+.status{
+    margin-left: 2px;
+    border-radius: 5px;
+    padding: 6px 8px;
+}
+
+.status:hover{
+    background-color: #eff2f5;
+}
+
+.message{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 19px 22px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.message button{
+    width: 9%;
+    padding: 3px 0px;
+    font-size: 12px;
+    border-radius: 0.4rem;
+    color: #fff;
+    background:linear-gradient(135deg,#fbbf3b 0%,#5ad363 100%);
+    border-color:#fff
+
+}
+
+.message h6,span{
+    font-size: 13px;
+}
+
+.message h6{
+    color: #6c757d;
+}
+
+.message span{
+    font-weight: 600;
+}
